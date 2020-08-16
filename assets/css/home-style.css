@@ -1,0 +1,78 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+  	width: 100%
+  	font-family: 'Libre Baskerville', serif;
+}
+.bg{
+	background-image: url("../images/home.jpg");
+	background-size: 100% 100%;
+	background-position:center;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	background-position: center;	
+	background-repeat: no-repeat;
+}
+
+.bg .inndiv{
+	background-color: rgba(232, 227, 255, 0.5);
+	overflow: hidden;
+	margin:24px;
+	border-radius: 15px;
+	border:3px solid rgba(126, 99, 255, 0.4);
+}
+.bg div nav{
+	overflow: hidden;
+	float: right;
+	display: inline-block;
+}
+.bg div nav ul{
+	display: inline-block;
+	list-style: none;
+	float: left;
+	display: flex;
+}
+
+.bg div nav ul li{
+	padding: 10px;
+	font-size: 22px;
+	margin-right: 60px;
+	background-color: rgb(255, 222, 249);
+	border-radius: 15px;
+	transform: scale(1);
+	transition: 0.35s;
+}
+a{
+	text-decoration: none;
+	color: rgb(66, 8, 250);
+	font-weight: bold;
+}
+.bg div nav ul li:hover{
+	background-color: rgb(255, 221, 204);
+	transform: scale(1.1);
+}
+
+.i_am{
+	padding-left: 70px;
+	background: -webkit-linear-gradient(#1403ff, #d66868);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+/*.outdiv{
+	background-color: black;
+	opacity: 0.5;
+	background-size: 100% 100%;
+	background-position:center;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	background-position: center;	
+	background-repeat: no-repeat;
+}*/

@@ -2,22 +2,13 @@ body, html {
   height: 100%;
   width: 100%;
   margin: 0px;
-/*  font-family: "CustomFont";*/
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
-@font-face {
-font-family: "CustomFont";
-src: url("http://localhost/i_am_engineer_co/assets/Fonts/Noticia_Text/Noticia_Text.eot");
-src: url("http://localhost/i_am_engineer_co/assets/Fonts/Noticia_Text/Noticia_Text.woff") format("woff"),
-url("http://localhost/i_am_engineer_co/assets/Fonts/Noticia_Text/Noticia_Text.otf") format("opentype"),
-url("http://localhost/i_am_engineer_co/assets/Fonts/Noticia_Text/Noticia_Text.svg#filename") format("svg");
-}/*font nai add thata
-font apply kar to aave ne
-
-*/
+/*loginbackground*/
 .lg_bg{
 	background-image: url("../images/login.jpg");
+	background-color: rgba(255, 255, 255,0.4);
 	height: 100vh;
 	width: 100%;
 	background-position: center;	
@@ -29,6 +20,7 @@ font apply kar to aave ne
 	justify-content: center;
 }
 
+/*Maindiv*/
 .Maindiv{
 	align-items: space-around;
 	background-color: rgba(255, 153, 153,0.22);
@@ -42,6 +34,7 @@ font apply kar to aave ne
 	border:0.5px solid rgba(153, 153, 153, 0.2);
 }
 
+/*login form*/
 .log{
 	display: flex;
 	align-items: center;
@@ -49,7 +42,9 @@ font apply kar to aave ne
 	flex-direction: column;
 	text-align: center;
 }
-input[type=text]{
+
+/*input field*/
+input[type=text],input[type=password]{
 	margin: 15px;
 	height: 30px;
 	text-align: center;
@@ -62,11 +57,9 @@ input[type=text]{
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
-	font-weight: bold;
-	transform: scale(1);
+	transform: scale(0.95);
 	transition:all 0.4s linear;
 	color: rgb(0, 89, 179);
-
 }
 input[type=submit]{
 	background-color: purple;
@@ -77,24 +70,24 @@ input[type=submit]{
 	color: #fff;
 	border-radius: 20px;
 	font-weight: bold;	
-	font-size: 15px;
+	font-size: 13px;
 	cursor: pointer;
 	border:none;
 	color: rgb(255, 221, 204);
 	transition:all 0.5s linear;
 	transform: scale(1);
+	font-family: 'Libre Baskerville', serif;
 }
 
-.login{
+.signin{
 	font-weight: bold;	
 	font-size: 25px;
 	padding-bottom: 15px;
-	font-family: Noticia_Text;
 	color: rgb(96, 0, 128);
 }
 
-input[type=text]:hover {
-	transform: scale(1.15);
+input[type=text]:hover,input[type=password]:hover {
+	transform: scale(1.1);
 	background-color: rgb(255, 230, 230)
 }
 
@@ -109,13 +102,17 @@ input[type=submit]:hover {
 	text-decoration: none;
 	color: rgb(96, 0, 128);
 }
-/*Aam font no apai
-google api use kari ne apply kar
 
-amathij krela download
+.cr-field{
+	font-size: 15px;
+	margin-top: 10px;
+}
 
-download no karai
-khoti space no use karai
-jo
+.cr-title{
+	padding: 5px;
+	margin-bottom: 15px;
+	font-size: 27px;
+	font-weight: bold;
+	color: purple;
+}
 
-*/
