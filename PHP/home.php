@@ -9,8 +9,7 @@
 <body>
 	
 		
-		<div class="bg">  
-			<!-- <img src="../assets/images/home.jpg"  class="bgimg"> -->
+	<div class="bg">  
 		<div class="inndiv">
 			<nav>
 				<ul>

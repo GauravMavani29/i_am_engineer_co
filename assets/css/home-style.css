@@ -6,7 +6,7 @@ body{
   	font-family: 'Libre Baskerville', serif;
 }
 .bg{
-	background-image: url("../images/home.jpg");    
+	background-image: url("../images/home3.jpg");    
 	background-size: 100% 100%;
 	background-position:center;
 	height: 100vh;
@@ -16,24 +16,8 @@ body{
 	justify-content: center;
 	background-position: center;	
 	background-repeat: no-repeat;
-	
 }
 
-/*.bgimg{
-	background-size: cover;
-	background-position:center;
-	height: 100vh;
-	overflow: hidden;
-	position: absolute;
-	align-items: center;
-	justify-content: center;
-	background-position: center;	
-	background-repeat: no-repeat;
-	filter: blur(4px);
-
-
-}
-*/
 .bg .inndiv{    
 	background-color: rgba(232, 227, 255, 0.4);
 	overflow: hidden;
@@ -87,9 +71,9 @@ a{
 	align-items: center;
 	display: flex;
 	flex-direction: column;
-	width: 50%;
-	margin-left: 100px;
-	margin-top: 200px;
+	width: 480px;
+	margin-left: 40px;
+	margin-top: 230px;
 	background-color: rgba(63, 81, 181, 0.4);
 	border:3px solid rgba(255, 255, 255, 0.4);
 	padding:20px;
@@ -99,7 +83,7 @@ a{
 .outdiv h1{
 	padding: 10px;
 	margin: 0px;
-	color: rgba(14, 13, 255,1);
+	color: rgba(14, 13, 255,1); 
 }
 
 .outdiv h2{
