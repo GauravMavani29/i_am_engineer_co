@@ -6,7 +6,7 @@ body{
   	font-family: 'Libre Baskerville', serif;
 }
 .bg{
-	background-image: url("../images/home.jpg");
+	background-image: url("../images/home.jpg");    
 	background-size: 100% 100%;
 	background-position:center;
 	height: 100vh;
@@ -16,14 +16,31 @@ body{
 	justify-content: center;
 	background-position: center;	
 	background-repeat: no-repeat;
+	
 }
 
-.bg .inndiv{
-	background-color: rgba(232, 227, 255, 0.5);
+/*.bgimg{
+	background-size: cover;
+	background-position:center;
+	height: 100vh;
+	overflow: hidden;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	background-position: center;	
+	background-repeat: no-repeat;
+	filter: blur(4px);
+
+
+}
+*/
+.bg .inndiv{    
+	background-color: rgba(232, 227, 255, 0.4);
 	overflow: hidden;
 	margin:24px;
 	border-radius: 15px;
 	border:3px solid rgba(126, 99, 255, 0.4);
+	box-shadow: 10px 10px 8px #888888;
 }
 .bg div nav{
 	overflow: hidden;
@@ -38,18 +55,21 @@ body{
 }
 
 .bg div nav ul li{
-	padding: 10px;
+	padding: 12px;
+	padding-top: 5px;
 	font-size: 22px;
 	margin-right: 60px;
-	background-color: rgb(255, 222, 249);
+	background-color: rgba(0, 0, 0, 0.4);
 	border-radius: 15px;
 	transform: scale(1);
 	transition: 0.35s;
+	box-shadow: 10px 10px 8px #888888;
 }
 a{
 	text-decoration: none;
-	color: rgb(66, 8, 250);
+	color: black;
 	font-weight: bold;
+	letter-spacing: 1px;
 }
 .bg div nav ul li:hover{
 	background-color: rgb(255, 221, 204);
@@ -57,22 +77,64 @@ a{
 }
 
 .i_am{
-	padding-left: 70px;
-	background: -webkit-linear-gradient(#1403ff, #d66868);
+	font-size: 30px;
+	background: -webkit-linear-gradient(#fff503, #d66c68);
 	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
 }
 
-/*.outdiv{
-	background-color: black;
-	opacity: 0.5;
-	background-size: 100% 100%;
-	background-position:center;
-	height: 100vh;
-	overflow: hidden;
-	position: relative;
+.outdiv{
 	align-items: center;
-	justify-content: center;
-	background-position: center;	
-	background-repeat: no-repeat;
-}*/
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin-left: 100px;
+	margin-top: 200px;
+	background-color: rgba(63, 81, 181, 0.4);
+	border:3px solid rgba(255, 255, 255, 0.4);
+	padding:20px;
+	border-radius: 15px;
+	box-shadow: 15px 15px 8px #888888;
+}	
+.outdiv h1{
+	padding: 10px;
+	margin: 0px;
+	color: rgba(14, 13, 255,1);
+}
+
+.outdiv h2{
+	padding: 10px;
+	margin: 0px;
+	color: rgba(255, 48, 107,1);
+}
+
+.outdiv a{
+	margin: 10px;
+	padding: 15px;	
+	font-size: 22px;	
+	background: transparent;
+	border:0.5px solid white;
+	color: rgb(233, 30, 30);
+	border-radius: 15px;
+	letter-spacing: 1px;
+	transform: scale(1);
+}
+
+.outdiv a:hover{
+	background-color: rgba(255,255,255,0.35);
+	transition: 0.5s;
+	box-shadow: 10px 10px 8px #888888;
+	transform: scale(0.95);
+}
+li img{
+	margin-right: 5px;
+}
+
+.iamdiv{
+	background-color: rgba(0, 9, 230, 0.6);
+	width: 300px;
+	margin: 15px;
+	padding: 8px;
+	border-radius: 15px;
+	box-shadow: 12px 12px 8px #888888;
+}

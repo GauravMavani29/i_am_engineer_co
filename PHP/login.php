@@ -9,7 +9,7 @@
 <body>
 		<div class="lg_bg">
 				<div class="Maindiv">
-						<form method="get" accept-charset="utf-8" class="log">
+						<form method="get" accept-charset="utf-8" class="log" action="home.php">
 							<div class="signin">Sign-In</div>
 							<div>
 								 <input type="text" name="UserName" placeholder="E-mail">
