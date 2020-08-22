@@ -1,0 +1,67 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+  	width: 100%
+  	font-family: 'Libre Baskerville', serif;
+  	-ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+	/*	::-webkit-scrollbar { 
+	    display: none;*/  /* Safari and Chrome */
+
+.bg{
+	/*background-image: url(../images/home3.jpg);*/
+	background-color: rgba(0,0,0,0.5);
+	background-size: 100% 100%;
+	background-position:center;
+	height: 100vh;
+	position: fixed;
+	align-items: center;
+	justify-content: center;
+	background-position: center;	
+	background-repeat: no-repeat;
+	right: 0;
+	left: 0;
+	color: white;
+}	
+
+.outdiv{	
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+
+
+}
+.proimg{
+	padding: 20px;
+}
+.proimg img{
+	height: 320px;
+	width: 350px;
+	margin-left: 610px;
+	border-radius: 15px;
+}
+.product{
+	background-color: rgba(255,255,255,0.2);
+	padding:25px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	overflow-y: scroll;
+
+}
+
+.purchase{
+	background-color: black;
+	padding: 18px;
+	width: 80px;
+	border-radius: 10px;
+}
+.purchase a{
+	text-decoration: none;
+	color: white;
+}
+
+/*Do Note: All accessories shown are for styling purpose only. Slight color variation may occur due to photographic reasons.*/
