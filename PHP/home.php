@@ -13,15 +13,17 @@
 		<div class="inndiv">
 			<nav>
 				<ul>
-					<li><a href="home.php" title="" style="color: white;"><img src="../assets/images/nav-home.png" height="25px">HOME</a></li>
+					<li><a href="home.php" title="" style="color: cyan;"><div class="thumb">
+						<img src="../assets/images/nav-home.png" height="25px">
+					</div>HOME</a></li>
 				
-					<li><a href="shop.php"><img src="../assets/images/nav-shopping.png" height="25px">SHOP</a></li>
+					<li><a href="shop.php"><div class="thumb"><img src="../assets/images/nav-shopping.png" height="25px"></div>SHOP</a></li>
 				
-					<li><a href=""><img src="../assets/images/nav-contact.png" height="25px">CONTACT</a></li>
+					<li><a href="contactus.php"><div class="thumb"><img src="../assets/images/nav-contact.png" height="25px"></div>CONTACT</a></li>
 				
-					<li><a href="" title=""><img src="../assets/images/nav-about.png" height="25px">ABOUT US</a></li>
+					<li><a href="aboutus.php" title=""><div class="thumb"><img src="../assets/images/nav-about.png" height="25px"></div>ABOUT US</a></li>
 				
-					<li><a href="login.php" title=""><img src="../assets/images/nav-login.png" height="25px">SIGNIN</a></li>
+					<li><a href="login.php" title=""><div class="thumb"><img src="../assets/images/nav-login.png" height="25px"></div>SIGNIN</a></li>
 				</ul>
 			</nav>
 			<div class="iamdiv">

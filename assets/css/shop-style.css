@@ -11,7 +11,7 @@ body{
     display: none;  /* Safari and Chrome */
 }
 .bg{
-	background-color: rgba(0,0,0,0.5);    
+	background-color: black;
 	background-size: 100% 100%;
 	background-position:center;
 	height: 100vh;
@@ -22,17 +22,18 @@ body{
 	background-repeat: no-repeat;
 	right: 0;
 	left: 0;
+	font-family: 'Libre Baskerville', serif;
 }
 
 .bg .inndiv{    
-	background-color: rgba(232, 227, 255, 0.4);
+	background-color: rgba(255, 255, 255, 0.2);
 	overflow: hidden;
 	margin-top:15px;
 	border-radius: 15px;
 	position: sticky;
 	z-index: 10;
 	top:0;
-	box-shadow: 0px 10px 28px rgba(0, 0, 0, 0.4);
+	box-shadow: 5px 5px 7px rgba(255, 255, 255, 0.4);
 }
 .bg div nav{
 	overflow: hidden;
@@ -51,25 +52,26 @@ body{
 	padding-top: 5px;
 	font-size: 22px;
 	margin-right: 60px;
-	background-color: rgba(0, 0, 0, 0.4);
-	border-radius: 15px;
+	background-color: rgba(0, 0, 0, 0.1);
 	transform: scale(1);
-	transition: 0.35s;
-	box-shadow: 8px 8px 6px #888888;
+	transition: 0.7s;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 7px;
 }
 a{
 	text-decoration: none;
-	color: black;
-	font-weight: bold;
+	color: white;
+	font-size: 18px;
 	letter-spacing: 1px;
 }
 .bg div nav ul li:hover{
-	background-color: rgb(255, 221, 204);
-	transform: scale(1.1);
+	box-shadow: 6px 6px 6px #888888;
+	transform: scale(1);
+	border: 1px solid white;	
 }
 
 .i_am{
-	font-size: 30px;
+	font-size: 24px;
 	color: black;
 }
 
@@ -83,7 +85,7 @@ ul li a img{
 	margin: 15px;
 	padding: 8px;
 	border-radius: 15px;
-	box-shadow: 10px 10px 6px #888888;
+	box-shadow: 5px 5px 4px #888888;
 }
 
 .outdiv{
@@ -96,13 +98,6 @@ ul li a img{
 	height: 80%;
 	padding-left: 10px;
 }
-.imgdiv img{
-	height: 300px;
-	width: 370px;
-	border-radius: 10px;
-	backface-visibility: hidden;
-	display: block;
-}
 
 .imgdiv{
 	padding: 17px 25px 0px 25px;
@@ -110,21 +105,31 @@ ul li a img{
 	position: relative;
 }
 
+.imgdiv img{
+	height: 300px;
+	width: 300px;
+	border-radius: 10px;
+	backface-visibility: hidden;
+	display: block;
+	margin-left: 55px;
+	box-shadow: 6px 6px 3px #888888;
+}
+
+
+
 .middle {
   background-color: black;
   transition: .4s ease;
   opacity: 0;
   position: absolute;
   top: 94%;
-  left: 50%;
+  left: 57%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
   color: white;
   padding: 12px 26px;
-  width: 320px;
-  /*box-shadow: 6px 6px 4px #ffffff;*/
-
+  width: 250px;
 }
 
 .purchase {
@@ -135,7 +140,8 @@ ul li a img{
 }
 
 .imgdiv:hover img {
-  opacity: 0.75;
+  opacity: 0.80;
+  
 }
 
 .imgdiv:hover .middle {

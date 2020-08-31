@@ -1,0 +1,112 @@
+body,html{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+  	width: 100%
+  	font-family: 'Libre Baskerville', serif;
+  	-ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome done?ha ok btavnmee a ryu css su jovu 6? are contactus valu to anoj to code 6*/
+}
+.bg{
+	background-image: url("../images/about.jpg");      
+	background-size: 100% 100%;
+	background-position:center;
+	height: 100vh;
+	position: fixed;
+	align-items: center;
+	justify-content: center;
+	background-position: center;	
+	background-repeat: no-repeat;
+	right: 0;
+	left: 0;
+	font-family: 'Libre Baskerville', serif;
+}
+
+.bg .inndiv{    
+	background-color: rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	margin-top:15px;
+	border-radius: 15px;
+	position: sticky;
+	z-index: 10;
+	top:0;
+	box-shadow: 5px 5px 7px rgba(255, 255, 255, 0.4);
+}
+.bg div nav{
+	overflow: hidden;
+	float: right;
+	display: inline-block;
+}
+.bg div nav ul{
+	display: inline-block;
+	list-style: none; 
+	float: left;
+	display: flex;
+}
+
+.bg div nav ul li{
+	padding: 12px;
+	padding-top: 5px;
+	font-size: 22px;
+	margin-right: 60px;
+	background-color: rgba(0, 0, 0, 0.1);
+	transform: scale(1);
+	transition: 0.7s;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 7px;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.bg div nav ul li:hover{
+	box-shadow: 6px 6px 6px #888888;
+	transform: scale(1);
+	border: 1px solid white;
+	
+}
+.i_am{
+	font-size: 24px;
+	color: black;
+}
+
+ul li a img{
+	margin-right: 5px;
+	align-items: center;
+	justify-content: center;
+}
+
+.iamdiv{
+	background-color: rgba(153, 154, 195, 0.6);
+	width: 300px;
+	margin: 15px;
+	padding: 8px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 4px #888888;
+}
+.outdiv{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 90%;
+}
+
+.maincontact{
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+	letter-spacing: 2px;
+	color: black;
+	background-color: rgba(255, 255, 255,0.5); 
+	padding: 60PX;
+	font-size: 22px;
+	border-radius: 15px;
+	box-shadow: 6px 6px 3px #000000;
+}
